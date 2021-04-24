@@ -23,7 +23,7 @@ import com.ashutosh.repository.StudentRepository;
 
 @RestController
 @RequestMapping("myapi")
-@CrossOrigin(origins = "http://10.0.0.180:3000")
+@CrossOrigin(origins = "http://localhost:3000")
 public class StudentController {
 
 	@Autowired
